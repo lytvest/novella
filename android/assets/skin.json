@@ -7,12 +7,17 @@
     "cow-bg": { a: 0.5, b: 0.7647059, g: 0.5764706, r: 0.57254905 },
     "grass-bg": { a: 0.5, b: 0.30588236, g: 0.7647059, r: 0.3529412 },
     "wolf-bg": { a: 0.5019608, b: 0.41960785, g: 0.35686275, r: 0.34901962 },
-  }
+    "black": { a: 1, b: 0.01, g: 0.01, r: 0.01 },
+  },
 
   "LabelStyle": {
     "default": {
       "font": "font-32",
       "fontColor": "white"
+    },
+    "text": {
+      "font": "font-32",
+      "fontColor": "black"
     },
     "hp": {
       "font": "font-38",

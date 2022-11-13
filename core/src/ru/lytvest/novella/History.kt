@@ -8,7 +8,9 @@ class History {
     val commands = mutableListOf<Command>()
 
     fun text(vararg strs: String, author: String = this.author) {
-        commands += TextCommand(strs.toList() , author)
+        for (str in strs) {
+            commands += TextCommand(str, author)
+        }
     }
 
 
