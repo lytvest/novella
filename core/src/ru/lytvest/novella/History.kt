@@ -1,6 +1,6 @@
 package ru.lytvest.novella
 
-class History {
+open class History {
     lateinit var scene: NovelaScene
     var author = ""
 
